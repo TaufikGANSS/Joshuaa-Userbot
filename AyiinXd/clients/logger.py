@@ -18,9 +18,9 @@ from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
-❏ ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏ ᴊᴏsʜᴜᴀ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ Aʏɪɪɴ Vᴇʀsɪᴏɴ - {} •[{}]•
+├▹ ᴊᴏsʜᴜᴀ ᴜsᴇʀʙᴏᴛ - {} •[{}]•
 ├▹ Usᴇʀʙᴏᴛ Vᴇʀsɪᴏɴ - {}
 ├▹ @{}
 ├▹ Kᴇᴛɪᴋ {}alive Uɴᴛᴜᴋ Mᴇɴɢᴇᴄᴇᴋ Bᴏᴛ
@@ -28,7 +28,7 @@ MSG_ON = """
 """
 
 
-async def ayiin_userbot_on():
+async def joshua_userbot_on():
     new_rights = ChatAdminRights(
         add_admins=True,
         invite_users=True,
@@ -40,17 +40,17 @@ async def ayiin_userbot_on():
     )
     try:
         if bot and tgbot:
-            AyiinUBOT = await tgbot.get_me()
-            BOT_USERNAME = AyiinUBOT.username
+            JoshuaUBOT = await tgbot.get_me()
+            BOT_USERNAME = JoshuaUBOT.username
             await bot(InviteToChannelRequest(int(BOTLOG_CHATID), [BOT_USERNAME]))
             await asyncio.sleep(3)
     except BaseException:
         pass
     try:
         if bot and tgbot:
-            AyiinUBOT = await tgbot.get_me()
+            JoshuaUBOT = await tgbot.get_me()
             BOT_USERNAME = AyiinUBOT.username
-            await bot(EditAdminRequest(BOTLOG_CHATID, BOT_USERNAME, new_rights, "Assɪsᴛᴀɴᴛ Aʏɪɪɴ"))
+            await bot(EditAdminRequest(BOTLOG_CHATID, BOT_USERNAME, new_rights, "Assɪsᴛᴀɴᴛ ᴊᴏsʜᴜᴀ"))
             await asyncio.sleep(3)
     except BaseException:
         pass
