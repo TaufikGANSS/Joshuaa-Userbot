@@ -1,4 +1,4 @@
-# Ayiin - Userbot
+# Joshua - Userbot
 # Credits (C) 2022-2023 @AyiinXd
 #
 # FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
