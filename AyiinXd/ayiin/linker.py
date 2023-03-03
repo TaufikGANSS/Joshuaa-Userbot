@@ -1,8 +1,8 @@
-# Ayiin - Userbot
-# Credits (C) 2022-2023 @AyiinXd
+# Joshua - Userbot
+# Credits (C) 2022-2023 @fikdisni
 #
 # FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# t.me/AyiinXdSupport & t.me/realtalentvcs
 
 # ========================×========================
 #                Link For Collaborator
