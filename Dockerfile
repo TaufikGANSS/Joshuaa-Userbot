@@ -1,6 +1,6 @@
 #==============×==============#
 #      Created by: Alfa-Ex
-#=========× AyiinXd ×=========#
+#=========× Joshua ×=========#
 
 FROM ayiinxd/ayiin-userbot:buster
 
